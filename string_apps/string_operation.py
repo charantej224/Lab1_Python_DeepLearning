@@ -1,3 +1,11 @@
+'''
+Question1 :
+Write a program to find a longest substring without repeating characters from a given string input from the console.
+Sample Input: ‘ababcdxa’
+Sample Output: abcdx
+'''
+
+
 class StringOperations:
     def longest_substring(self, input_string):
         char_list = []
