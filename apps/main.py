@@ -1,6 +1,7 @@
 from string_apps.string_operation import StringOperations
 from structure_conversion.tuple_dictionary import sort_tuple
 
+
 def run_apps():
     print("welcome to Lab1")
     string_op = StringOperations()

@@ -22,7 +22,6 @@ class StringOperations:
             temp_string += a
         if len(longest_substring) < len(temp_string):
             longest_substring = temp_string
-
         print(longest_substring)
 
     def clean_list(self, input_list, char, temp_string, longest_substring):
