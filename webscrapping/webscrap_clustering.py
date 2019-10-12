@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 
 def web_scrap():
-    raw_html = read_web_page.read_web_content("https://scikit-learn.org/stable/modules/clustering.html#clustering")
+    raw_html = read_web_page("https://scikit-learn.org/stable/modules/clustering.html#clustering")
     soup = BeautifulSoup(raw_html, 'html.parser')
     table = soup.find("table", {"class": "colwidths-given docutils"})
     for head in table.find_all("th", {"class": "head"}):
