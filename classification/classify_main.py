@@ -1,3 +1,10 @@
+"""
+problem 5 :
+a. Perform exploratory data analysis on the data set (like Handling null values, removing  the  features
+not  correlated  to  the  target  class,  encoding  the categorical features, ...)
+b. Apply the three classification algorithms Naïve Bayes, SVM and KNN on thechosen data set and report
+which classifier gives better result.
+"""
 import pandas as pd
 import seaborn as sns
 from classification.classify import support_vector_machine

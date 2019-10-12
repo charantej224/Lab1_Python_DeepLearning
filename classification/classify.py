@@ -4,6 +4,13 @@ from sklearn.naive_bayes import GaussianNB
 
 
 def support_vector_machine(x_train, y_train, x_test):
+    '''
+    Function : Support Vector Machine Classification
+    :param x_train:
+    :param y_train:
+    :param x_test:
+    :return:
+    '''
     svc_linear = SVC(kernel='linear')
     svc_linear.fit(
         x_train,
@@ -24,6 +31,13 @@ def support_vector_machine(x_train, y_train, x_test):
 
 
 def nearest_neighbor(x_train, y_train, x_test):
+    '''
+    Function: Nearest Neighbhor classification
+    :param x_train:
+    :param y_train:
+    :param x_test:
+    :return:
+    '''
     knn = KNeighborsClassifier(n_neighbors=3)
     knn.fit(x_train, y_train)
     Y_pred = knn.predict(x_test)
@@ -33,6 +47,13 @@ def nearest_neighbor(x_train, y_train, x_test):
 
 
 def bayes_classifier(x_train, y_train, x_test):
+    '''
+    Function : Naive Bayes Classifier
+    :param x_train:
+    :param y_train:
+    :param x_test:
+    :return:
+    '''
     gauss = GaussianNB()
     gauss.fit(
         x_train,

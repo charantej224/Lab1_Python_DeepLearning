@@ -1,5 +1,5 @@
 '''
-a sample code to clean the output files. so as to facilitate a new run.
+Code to remove the files generated and re-generate them again.
 '''
 
 import os

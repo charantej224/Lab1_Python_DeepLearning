@@ -1,5 +1,9 @@
 '''
-problem 6
+problem 6 : Applying K Means regression Technique
+a. Report which K is the best using the elbow method.
+b.  Evaluate  with  silhouette  score  or  other  scores  relevant  for  unsupervised approaches (before applying
+clustering clean the data set with the EDA learned in the class)
+
 '''
 import pandas as pd
 import seaborn as sns
